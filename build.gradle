@@ -140,7 +140,7 @@ repositories {
 dependencies {
 
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    implementation fg.deobf('curse.maven:ccapi-348521:5729105')
+//    implementation fg.deobf('curse.maven:ccapi-348521:5729105')
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 

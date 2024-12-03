@@ -27,51 +27,41 @@ public class NAIYConfigScreen extends Screen {
         
         int y = 40;
         
-        // 将按钮分成两列
         int leftX = this.width / 4 - BUTTON_WIDTH / 2;
         int rightX = this.width * 3/4 - BUTTON_WIDTH / 2;
         
-        // 第一行
         addBooleanOption("onlyLocal", leftX, y, "naiy.config.onlylocal");
         addBooleanOption("hideArrows", rightX, y, "naiy.config.hidearrows");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第二行
         addBooleanOption("hideStings", leftX, y, "naiy.config.hidestings");
         addBooleanOption("hideArmor", rightX, y, "naiy.config.hidearmor");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第三行
         addBooleanOption("hideHeldItem", leftX, y, "naiy.config.hidehelditem");
         addBooleanOption("hideHead", rightX, y, "naiy.config.hidehead");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第四行
         addBooleanOption("hideElytra", leftX, y, "naiy.config.hideelytra");
         addBooleanOption("hideRiptide", rightX, y, "naiy.config.hideriptide");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第五行
         addBooleanOption("render", leftX, y, "naiy.config.render");
         addBooleanOption("hideShoulderParrot", rightX, y, "naiy.config.hideshoulderparrot");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第六行
         addBooleanOption("hideHorseArmor", leftX, y, "naiy.config.hidehorsearmor");
         addBooleanOption("hideCatCollar", rightX, y, "naiy.config.hidecatcollar");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第七行
         addBooleanOption("hideWolfCollar", leftX, y, "naiy.config.hidewolfcollar");
         addBooleanOption("hideDolphinHeldItem", rightX, y, "naiy.config.hidedolphinhelditem");
         y += BUTTON_HEIGHT + PADDING;
         
-        // 第八行
         addBooleanOption("hideFoxHeldItem", leftX, y, "naiy.config.hidefoxhelditem");
         addBooleanOption("hideEndermanBlock", rightX, y, "naiy.config.hideendermanblock");
         y += BUTTON_HEIGHT + PADDING;
 
-        // Done button at the bottom
         this.addRenderableWidget(Button.builder(
             Component.translatable("naiy.config.done"),
             (button) -> this.minecraft.setScreen(this.parent))

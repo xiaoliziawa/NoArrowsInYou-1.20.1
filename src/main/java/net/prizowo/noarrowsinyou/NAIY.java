@@ -36,7 +36,7 @@ public class NAIY {
     public static boolean isLocalPlayer(Entity entity) {
         if(!NAIY.getConfig().onlyLocal())
             return true;
-        return Minecraft.getInstance().player != null && 
-               Minecraft.getInstance().player.getUUID().equals(entity.getUUID());
+        return Minecraft.getInstance().player != null &&
+                Minecraft.getInstance().player.getUUID().equals(entity.getUUID());
     }
 }
