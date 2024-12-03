@@ -1,0 +1,23 @@
+{
+  "naiy.config.title": "NoArrowsInYou 配置",
+  "naiy.config.category.general": "常规设置",
+  "naiy.config.category.player": "玩家设置",
+  "naiy.config.category.entity": "实体设置",
+  "naiy.config.onlylocal": "仅影响本地玩家",
+  "naiy.config.hidearrows": "隐藏箭矢",
+  "naiy.config.hidestings": "隐藏蜂刺",
+  "naiy.config.hidearmor": "隐藏盔甲",
+  "naiy.config.hidehelditem": "隐藏手持物品",
+  "naiy.config.hidehead": "隐藏头部物品",
+  "naiy.config.hideelytra": "隐藏鞘翅",
+  "naiy.config.hideriptide": "隐藏激流效果",
+  "naiy.config.render": "渲染玩家",
+  "naiy.config.hideshoulderparrot": "隐藏肩膀鹦鹉",
+  "naiy.config.hidehorsearmor": "隐藏马铠",
+  "naiy.config.hidecatcollar": "隐藏猫项圈",
+  "naiy.config.hidewolfcollar": "隐藏狼项圈",
+  "naiy.config.hidedolphinhelditem": "隐藏海豚物品",
+  "naiy.config.hidefoxhelditem": "隐藏狐狸物品",
+  "naiy.config.hideendermanblock": "隐藏末影人方块",
+  "naiy.config.done": "完成"
+} 

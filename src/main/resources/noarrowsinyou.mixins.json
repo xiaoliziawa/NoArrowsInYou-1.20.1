@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.prizowo.noarrowsinyou.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "noarrowsinyou.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "misc.ArmorFeatureMixin",
+    "misc.ElytraFeatureMixin",
+    "misc.HeadFeatureMixin",
+    "misc.HeldItemFeatureMixin",
+    "misc.PlayerEntityRendererMixin",
+    "misc.TridentRiptideFeatureMixin",
+    "entity.CatCollarFeatureMixin",
+    "entity.DolphinHeldItemFeatureMixin", 
+    "entity.EndermanBlockFeatureMixin",
+    "entity.FoxHeldItemFeatureMixin",
+    "entity.HorseArmorFeatureMixin",
+    "entity.ShoulderParrotFeatureMixin",
+    "entity.WolfCollarFeatureMixin",
+    "general.StuckArrowsFeatureMixin",
+    "general.StuckStingersFeatureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
