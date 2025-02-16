@@ -1,0 +1,23 @@
+{
+  "naiy.config.title": "NoArrowsInYou Configuration",
+  "naiy.config.category.general": "General Settings",
+  "naiy.config.category.player": "Player Settings",
+  "naiy.config.category.entity": "Entity Settings",
+  "naiy.config.onlylocal": "Only Affect Local Player",
+  "naiy.config.hidearrows": "Hide Arrows",
+  "naiy.config.hidestings": "Hide Bee Stings",
+  "naiy.config.hidearmor": "Hide Armor",
+  "naiy.config.hidehelditem": "Hide Held Item",
+  "naiy.config.hidehead": "Hide Head Item",
+  "naiy.config.hideelytra": "Hide Elytra",
+  "naiy.config.hideriptide": "Hide Riptide Effect",
+  "naiy.config.render": "Render Player",
+  "naiy.config.hideshoulderparrot": "Hide Shoulder Parrot",
+  "naiy.config.hidehorsearmor": "Hide Horse Armor",
+  "naiy.config.hidecatcollar": "Hide Cat Collar",
+  "naiy.config.hidewolfcollar": "Hide Wolf Collar",
+  "naiy.config.hidedolphinhelditem": "Hide Dolphin Item",
+  "naiy.config.hidefoxhelditem": "Hide Fox Item",
+  "naiy.config.hideendermanblock": "Hide Enderman Block",
+  "naiy.config.done": "Done"
+} 
